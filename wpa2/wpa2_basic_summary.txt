@@ -1,0 +1,29 @@
+WPA2 Basic Packet Analysis Summary
+==================================
+
+PCAP file: wpa2.pcapng
+SSID: iPhone_Lab
+BSSID: b2:86:9a:49:e9:da
+Client MAC: e8:bf:b8:96:c3:55
+
+Extracted frame counts:
+Beacon frames: 323
+Open System Authentication frames: 8
+Association frames: 4
+EAPOL frames: 26
+Protected frames: 1533
+
+Selected evidence frames:
+Frame 1363 | Time=23.098575527 | Kind=Beacon | TA=b2:86:9a:49:e9:da | RA=ff:ff:ff:ff:ff:ff | BSSID=b2:86:9a:49:e9:da | SSID=iPhone_Lab | AKM=PSK | PairwiseCipher=CCMP | GroupCipher=CCMP | RSNCap=0x003c | Auth= | AuthSeq= | Status= | AID= | EAPOL= | Nonce= | Replay= | ACK= | MIC= | Install= | Secure= | EncryptedKeyData= | KeyDataLength= | Protected=False | CCMP-PN= | Meaning=AP advertises WPA2 RSN capabilities, PSK AKM and CCMP ciphers.
+Frame 1364 | Time=23.132337026 | Kind=Authentication | TA=e8:bf:b8:96:c3:55 | RA=b2:86:9a:49:e9:da | BSSID=b2:86:9a:49:e9:da | SSID= | AKM= | PairwiseCipher= | GroupCipher= | RSNCap= | Auth=Open System | AuthSeq=1 | Status=0x0000 | AID= | EAPOL= | Nonce= | Replay= | ACK= | MIC= | Install= | Secure= | EncryptedKeyData= | KeyDataLength= | Protected=False | CCMP-PN= | Meaning=Client sends an Open System Authentication Request.
+Frame 1366 | Time=23.137833234 | Kind=Authentication | TA=b2:86:9a:49:e9:da | RA=e8:bf:b8:96:c3:55 | BSSID=b2:86:9a:49:e9:da | SSID= | AKM= | PairwiseCipher= | GroupCipher= | RSNCap= | Auth=Open System | AuthSeq=2 | Status=0x0000 | AID= | EAPOL= | Nonce= | Replay= | ACK= | MIC= | Install= | Secure= | EncryptedKeyData= | KeyDataLength= | Protected=False | CCMP-PN= | Meaning=AP returns the Open System Authentication Response.
+Frame 1368 | Time=23.140100788 | Kind=Association Request | TA=e8:bf:b8:96:c3:55 | RA=b2:86:9a:49:e9:da | BSSID=b2:86:9a:49:e9:da | SSID=iPhone_Lab | AKM=PSK | PairwiseCipher=CCMP | GroupCipher=CCMP | RSNCap=0x003c | Auth= | AuthSeq= | Status= | AID= | EAPOL= | Nonce= | Replay= | ACK= | MIC= | Install= | Secure= | EncryptedKeyData= | KeyDataLength= | Protected=False | CCMP-PN= | Meaning=Client selects PSK and CCMP in the Association Request RSN IE.
+Frame 1370 | Time=23.145981562 | Kind=Association Response | TA=b2:86:9a:49:e9:da | RA=e8:bf:b8:96:c3:55 | BSSID=b2:86:9a:49:e9:da | SSID= | AKM= | PairwiseCipher= | GroupCipher= | RSNCap= | Auth= | AuthSeq= | Status=0x0000 | AID=0x000d | EAPOL= | Nonce= | Replay= | ACK= | MIC= | Install= | Secure= | EncryptedKeyData= | KeyDataLength= | Protected=False | CCMP-PN= | Meaning=AP accepts the Association Request and assigns an Association ID.
+Frame 1374 | Time=23.157073317 | Kind=EAPOL | TA=b2:86:9a:49:e9:da | RA=e8:bf:b8:96:c3:55 | BSSID=b2:86:9a:49:e9:da | SSID= | AKM= | PairwiseCipher= | GroupCipher= | RSNCap= | Auth= | AuthSeq= | Status= | AID= | EAPOL=Message 1 of 4 | Nonce=ANonce | Replay=1 | ACK=True | MIC=False | Install=False | Secure=False | EncryptedKeyData=False | KeyDataLength=22 | Protected=False | CCMP-PN= | Meaning=WPA2 EAPOL 4-Way Handshake message.
+Frame 1376 | Time=23.159336555 | Kind=EAPOL | TA=e8:bf:b8:96:c3:55 | RA=b2:86:9a:49:e9:da | BSSID=b2:86:9a:49:e9:da | SSID= | AKM=PSK | PairwiseCipher=CCMP | GroupCipher=CCMP | RSNCap=0x003c | Auth= | AuthSeq= | Status= | AID= | EAPOL=Message 2 of 4 | Nonce=SNonce | Replay=1 | ACK=False | MIC=True | Install=False | Secure=False | EncryptedKeyData=False | KeyDataLength=24 | Protected=False | CCMP-PN= | Meaning=WPA2 EAPOL 4-Way Handshake message.
+Frame 1378 | Time=23.164878513 | Kind=EAPOL | TA=b2:86:9a:49:e9:da | RA=e8:bf:b8:96:c3:55 | BSSID=b2:86:9a:49:e9:da | SSID= | AKM= | PairwiseCipher= | GroupCipher= | RSNCap= | Auth= | AuthSeq= | Status= | AID= | EAPOL=Message 3 of 4 | Nonce=ANonce repeated | Replay=3 | ACK=True | MIC=True | Install=True | Secure=True | EncryptedKeyData=True | KeyDataLength=56 | Protected=False | CCMP-PN= | Meaning=WPA2 EAPOL 4-Way Handshake message.
+Frame 1382 | Time=23.169142618 | Kind=EAPOL | TA=e8:bf:b8:96:c3:55 | RA=b2:86:9a:49:e9:da | BSSID=b2:86:9a:49:e9:da | SSID= | AKM= | PairwiseCipher= | GroupCipher= | RSNCap= | Auth= | AuthSeq= | Status= | AID= | EAPOL=Message 4 of 4 | Nonce= | Replay=3 | ACK=False | MIC=True | Install=False | Secure=True | EncryptedKeyData=False | KeyDataLength=0 | Protected=False | CCMP-PN= | Meaning=WPA2 EAPOL 4-Way Handshake message.
+Frame 1394 | Time=23.297700354 | Kind=Protected Frame | TA=e8:bf:b8:96:c3:55 | RA=b2:86:9a:49:e9:da | BSSID=b2:86:9a:49:e9:da | SSID= | AKM= | PairwiseCipher= | GroupCipher= | RSNCap= | Auth= | AuthSeq= | Status= | AID= | EAPOL= | Nonce= | Replay= | ACK= | MIC= | Install= | Secure= | EncryptedKeyData= | KeyDataLength= | Protected=True | CCMP-PN=0x000000000001 | Meaning=Protected CCMP frame after key establishment.
+
+Conclusion:
+The extracted packets show the WPA2-Personal connection sequence: Beacon RSN information advertising PSK and CCMP, Open System Authentication, Association Request/Response, a complete EAPOL 4-Way Handshake, and protected CCMP traffic. The passive PCAP does not reveal the password, PMK, PTK, or decrypted payload content.

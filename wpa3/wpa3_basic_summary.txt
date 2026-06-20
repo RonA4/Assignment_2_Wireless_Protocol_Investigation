@@ -1,0 +1,29 @@
+WPA3 Basic Packet Analysis Summary
+==================================
+
+PCAP file: wpaa3.pcapng
+SSID: iPhone_Lab
+BSSID: 4a:91:20:2b:8a:fe
+Client MAC: e8:bf:b8:96:c3:55
+
+Extracted frame counts:
+Beacon frames: 509
+SAE authentication frames: 37
+Association frames: 2
+EAPOL frames: 4
+Protected frames: 61
+
+Selected evidence frames:
+Frame 1 | Time=0.000000000 | Kind=Beacon | TA=4a:91:20:2b:8a:fe | RA=ff:ff:ff:ff:ff:ff | BSSID=4a:91:20:2b:8a:fe | SSID=iPhone_Lab | AKM=PSK;SAE | PairwiseCipher=CCMP | GroupCipher=CCMP | GroupMgmtCipher=BIP-CMAC-128 | RSNCap=0x00bc | Auth= | AuthSeq= | Status= | SAE= | SAEGroup= | ScalarPresent=no | ElementPresent=yes | EAPOL= | Nonce= | Replay= | ACK= | MIC= | Install= | Secure= | Protected=False | Meaning=AP advertises RSN security capabilities, AKM and cipher suites.
+Frame 181 | Time=11.719656894 | Kind=Authentication | TA=e8:bf:b8:96:c3:55 | RA=4a:91:20:2b:8a:fe | BSSID=4a:91:20:2b:8a:fe | SSID= | AKM= | PairwiseCipher= | GroupCipher= | GroupMgmtCipher= | RSNCap= | Auth=SAE | AuthSeq=1 | Status=0x007e | SAE=SAE Commit | SAEGroup=19 | ScalarPresent=yes | ElementPresent=yes | EAPOL= | Nonce= | Replay= | ACK= | MIC= | Install= | Secure= | Protected=False | Meaning=SAE authentication occurs before Association and before EAPOL.
+Frame 186 | Time=11.833549337 | Kind=Authentication | TA=e8:bf:b8:96:c3:55 | RA=4a:91:20:2b:8a:fe | BSSID=4a:91:20:2b:8a:fe | SSID= | AKM= | PairwiseCipher= | GroupCipher= | GroupMgmtCipher= | RSNCap= | Auth=SAE | AuthSeq=2 | Status=0x0000 | SAE=SAE Confirm | SAEGroup= | ScalarPresent=no | ElementPresent=no | EAPOL= | Nonce= | Replay= | ACK= | MIC= | Install= | Secure= | Protected=False | Meaning=SAE authentication occurs before Association and before EAPOL.
+Frame 1809 | Time=31.112555524 | Kind=Association Request | TA=e8:bf:b8:96:c3:55 | RA=4a:91:20:2b:8a:fe | BSSID=4a:91:20:2b:8a:fe | SSID=iPhone_Lab | AKM=SAE | PairwiseCipher=CCMP | GroupCipher=CCMP | GroupMgmtCipher=BIP-CMAC-128 | RSNCap=0x00fc | Auth= | AuthSeq= | Status= | SAE= | SAEGroup= | ScalarPresent=no | ElementPresent=yes | EAPOL= | Nonce= | Replay= | ACK= | MIC= | Install= | Secure= | Protected=False | Meaning=Client requests association and selects SAE/CCMP parameters.
+Frame 1811 | Time=31.125861976 | Kind=Association Response | TA=4a:91:20:2b:8a:fe | RA=e8:bf:b8:96:c3:55 | BSSID=4a:91:20:2b:8a:fe | SSID= | AKM= | PairwiseCipher= | GroupCipher= | GroupMgmtCipher= | RSNCap= | Auth= | AuthSeq= | Status=0x0000 | SAE= | SAEGroup= | ScalarPresent=no | ElementPresent=yes | EAPOL= | Nonce= | Replay= | ACK= | MIC= | Install= | Secure= | Protected=False | Meaning=AP accepts the association request.
+Frame 1813 | Time=31.125882926 | Kind=EAPOL | TA=4a:91:20:2b:8a:fe | RA=e8:bf:b8:96:c3:55 | BSSID=4a:91:20:2b:8a:fe | SSID= | AKM= | PairwiseCipher= | GroupCipher= | GroupMgmtCipher= | RSNCap= | Auth= | AuthSeq= | Status= | SAE= | SAEGroup= | ScalarPresent=no | ElementPresent=no | EAPOL=Message 1 of 4 | Nonce=ANonce | Replay=1 | ACK=True | MIC=False | Install=False | Secure=False | Protected=False | Meaning=EAPOL 4-Way Handshake message after SAE authentication.
+Frame 1815 | Time=31.127668315 | Kind=EAPOL | TA=e8:bf:b8:96:c3:55 | RA=4a:91:20:2b:8a:fe | BSSID=4a:91:20:2b:8a:fe | SSID= | AKM=SAE | PairwiseCipher=CCMP | GroupCipher=CCMP | GroupMgmtCipher=BIP-CMAC-128 | RSNCap=0x00fc | Auth= | AuthSeq= | Status= | SAE= | SAEGroup= | ScalarPresent=no | ElementPresent=yes | EAPOL=Message 2 of 4 | Nonce=SNonce | Replay=1 | ACK=False | MIC=True | Install=False | Secure=False | Protected=False | Meaning=EAPOL 4-Way Handshake message after SAE authentication.
+Frame 1818 | Time=31.134020110 | Kind=EAPOL | TA=4a:91:20:2b:8a:fe | RA=e8:bf:b8:96:c3:55 | BSSID=4a:91:20:2b:8a:fe | SSID= | AKM= | PairwiseCipher= | GroupCipher= | GroupMgmtCipher= | RSNCap= | Auth= | AuthSeq= | Status= | SAE= | SAEGroup= | ScalarPresent=no | ElementPresent=no | EAPOL=Message 3 of 4 | Nonce= | Replay=3 | ACK=True | MIC=True | Install=True | Secure=True | Protected=False | Meaning=EAPOL 4-Way Handshake message after SAE authentication.
+Frame 1820 | Time=31.136795114 | Kind=EAPOL | TA=e8:bf:b8:96:c3:55 | RA=4a:91:20:2b:8a:fe | BSSID=4a:91:20:2b:8a:fe | SSID= | AKM= | PairwiseCipher= | GroupCipher= | GroupMgmtCipher= | RSNCap= | Auth= | AuthSeq= | Status= | SAE= | SAEGroup= | ScalarPresent=no | ElementPresent=no | EAPOL=Message 4 of 4 | Nonce= | Replay=3 | ACK=False | MIC=True | Install=False | Secure=True | Protected=False | Meaning=EAPOL 4-Way Handshake message after SAE authentication.
+Frame 1822 | Time=31.136808645 | Kind=Protected Frame | TA=e8:bf:b8:96:c3:55 | RA=4a:91:20:2b:8a:fe | BSSID=4a:91:20:2b:8a:fe | SSID= | AKM= | PairwiseCipher= | GroupCipher= | GroupMgmtCipher= | RSNCap= | Auth= | AuthSeq= | Status= | SAE= | SAEGroup= | ScalarPresent=no | ElementPresent=no | EAPOL= | Nonce= | Replay= | ACK= | MIC= | Install= | Secure= | Protected=True | Meaning=Protected frame after key establishment.
+
+Conclusion:
+The extracted packets show the WPA3-SAE connection sequence: Beacon RSN information, SAE Commit/Confirm authentication, Association Request/Response, EAPOL 4-Way Handshake, and protected frames. This supports the claim that WPA3-SAE authentication occurs before Association and before the EAPOL 4-Way Handshake. The passive PCAP does not reveal the password, PMK, PTK, or decrypted payload content.
