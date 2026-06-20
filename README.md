@@ -100,7 +100,7 @@ The investigation is based only on passive packet captures. We do not decrypt tr
 The final report is located in:
 
 ```text
-report/Assignment_2.pdf
+Assignment_2.pdf
 ```
 
 The report includes:
